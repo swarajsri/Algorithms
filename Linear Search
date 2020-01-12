@@ -1,0 +1,6 @@
+# Program for linear search (Pyhton)
+def linear(arr,a):
+    for i in range(len(arr)):
+        if arr[i]==a:                      # element found condition
+            break
+    return i+1                             # returns the position of the element in the list
